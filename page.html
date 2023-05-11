@@ -8,86 +8,81 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="page.css" rel="stylesheet">
 </head>
-<body style="background-color: bisque">
-
-        <!--Header starting-->
+<body>
+    <!--Header starting-->
     <!--Logo-->
-    <div class="container-fluid bg-light" >
+    <div class="container-fluid mt-5" id="header">
         <div class="row">
-        <div class="col-sm-2" id="logo">
-            <img src="logo.jpg" width="120px" height="120px" alt="logo"></div>
-            <div class="col-sm-10" id="title">Yoga Class</div>
+        <div class="col-sm-4" id="logo">
+            <img src="logo1.jpg" width="120px" height="120px" alt="logo"></div>
+            <div class="col-sm-8" id="title">Yoga Class</div>
         </div>
         <br>
     </div>
     <!--Header ending-->
-    
-    <!--Image display starting-->
-    <div id="demo" class="carousel slide bg-dark" data-bs-ride="carousel" >
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="0"  class="active"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+<!--Image display starting-->
+<div id="demo" class="carousel slide" data-bs-ride="carousel" >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0"  class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner" >
+        <div class="carousel-item active">
+          <img src="padmasana.jpg" alt="image" class="d-block" style="width:20%">
+          <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Padmasana</h5>
+              <p>Gives good posture and health.</p>
+          </div>
         </div>
-        <div class="carousel-inner bg-dark" >
-            <div class="carousel-item active">
-              <img src="padmasana.jpg" alt="image" class="d-block" style="width:10%">
-              <div class="carousel-caption d-none d-md-block">
-                  <h5>Padmasana</h5>
-                  <p>Gives good posture and health.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="padmasana.jpg" alt="image" class="d-block" style="width:10%">
-              <div class="carousel-caption d-none d-md-block">
-                  <h5>Padmasana</h5>
-                  <p>Gives good posture and health.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="padmasana.jpg" alt="image" class="d-block" style="width:10%">
-              <div class="carousel-caption d-none d-md-block">
-                  <h5>Padmasana</h5>
-                  <p>Gives good posture and health.</p>
-              </div>
-            </div>
+        <div class="carousel-item">
+          <img src="padmasana.jpg" alt="image" class="d-block" style="width:20%">
+          <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Padmasana</h5>
+              <p>Gives good posture and health.</p>
           </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-              </button>
+        </div>
+        <div class="carousel-item">
+          <img src="padmasana.jpg" alt="image" class="d-block" style="width:20%">
+          <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Padmasana</h5>
+              <p>Gives good posture and health.</p>
           </div>
-          <!--Image display ending-->
-
-    
-
+        </div>
+      </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </button>
+      </div>
+      <!--Image display ending-->
     <!--Details-->
     <!--Contact details starting-->
-    <div class="container-fluid mt-3">
+    <div class="container-fluid mt-3" id="contact">
         <div class="row">
-            <div class="col-sm-6 bg-light text-dark">
+            <div class="col-sm-4">
                 <div>
-                    <h1>Contact Details</h1><br>
-                    <h5>Mobile Number: +91 1234567890</h5>
-                    <h5>WhatsApp Number: +91 1234567890</h5>
-                    <h5>Email-id: yogaclass@yyyy.com</h5>
+                    <h3>Contact Details</h3><br>
+                    <h6>Mobile Number: +91 1234567890</h6>
+                    <h6>WhatsApp Number: +91 1234567890</h6>
+                    <h6>Email-id: yogaclass@yyyy.com</h6>
                 </div><br>
                     
                 <div>
-                    <h1>Timigs</h1><br>
-                    <h5>Morning: 06.00 AM ~ 08.00 AM</h5>
-                    <h5>Evening: 06.00 PM ~ 08.00 PM</h5>
-                    <h5>Monday to Friday only.</h5>
+                    <h3>Timing</h3><br>
+                    <h6>Morning: 06.00 AM ~ 08.00 AM</h6>
+                    <h6>Evening: 06.00 PM ~ 08.00 PM</h6>
+                    <h6>Monday to Friday only.</h6>
                 </div>
             </div>
             <!--Contact details ending-->
             <!--Location map starting-->
-        <div class="col-sm-6 bg-light text-dark">
+        <div class="col-sm-8">
                 <div>
-                    <h1>Location</h1>
-                    <h5>India</h5>
+                    <h3>Location</h3>
+                    <h6>India</h6>
                 </div>
                 <div>
                     <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=300&amp;hl=en&amp;q=India&amp;t=&amp;z=4&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://capcuttemplate.org/">Capcut Template</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:300px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:300px;}.gmap_iframe {height:300px!important;}</style></div><br>

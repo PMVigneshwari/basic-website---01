@@ -1,23 +1,38 @@
-.body
+body
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blueviolet;
+    background-image: linear-gradient(lightblue,lightgray,white);
+    height:900px;
+    color: black;
+}
+#logo
+{
+    align-items: center;
+    padding-left:30px;
+}
+#header
+{
+    margin:10px;
+    padding: top 0.05em;
 }
 #title
 {
-    color: blue;
-    font-size: 50px;
+    font-size: 75px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    text-align: left;
 }
 #demo
 {   align-items: center;
     margin: 10px;
-    margin-bottom: 1px;
-    padding: 100px;
+    margin-bottom: 10px;
+    padding-left: 300px;
+    padding-bottom: 70px;
     size: 50px;
 }
-#text
+#contact
 {
-    color:orangered;
+    margin: 10px;
+    padding:30px;
 }
